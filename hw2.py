@@ -53,9 +53,9 @@ def descargar_datos_tabla():
     
     with open('nombre_del_archivo.csv') as f:
        st.download_button(
-        "Press to Download","text/csv",
+        "Press to Download",
         key='download-csv'
-)
+        )
 
 
 
